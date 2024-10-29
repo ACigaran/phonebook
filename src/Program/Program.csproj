@@ -1,5 +1,9 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <ItemGroup>
+    <PackageReference Include="Twilio" Version="7.6.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\PII_WhatsAppApiUCU\src\LibraryWhatsapp\LibraryWhatsapp.csproj" />
     <ProjectReference Include="..\Library\Library.csproj" />
   </ItemGroup>
   <PropertyGroup>
